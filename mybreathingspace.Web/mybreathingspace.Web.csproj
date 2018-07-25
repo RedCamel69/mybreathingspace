@@ -202,6 +202,7 @@
     <None Include="Properties\PublishProfiles\mybreathingspace - FTP %285%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - FTP %286%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - FTP %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\mybreathingspace - FTP %288%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %283%29.pubxml" />
@@ -209,6 +210,7 @@
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %285%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %286%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy %288%29.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mybreathingspace.net - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\publishblog.pubxml" />

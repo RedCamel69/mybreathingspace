@@ -1,0 +1,25 @@
+﻿section{
+    padding-top:5vh;
+    padding-bottom:5vh;
+}
+
+ #titleCanvas{
+        background-color:none;
+        opacity:1;
+    }
+
+@media  (max-width:668px){
+
+    #titleCanvas{
+        background-color:black;
+        opacity:0.7;
+        border-radius:5px;
+        padding:5px;
+    }
+}
+
+/*@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+}*/

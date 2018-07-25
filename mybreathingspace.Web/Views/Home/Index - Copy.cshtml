@@ -1,0 +1,70 @@
+﻿@using MyBreathingspace.Web.Helpers
+@model List<MyBreathingSpaceBlog.Domain.Entities.Post>
+@{
+    Layout = "~/Views/Shared/_BlogLayout.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="background-color:transparent!important;" id="title">
+    <h1 style="color: white;text-align:center">The 8 Week Mindfulness Based Stress Reduction (MBSR) Course</h1>
+    <!--
+    <h2 style="color: black">Welcome to</h2>
+    <h2 style="color: black">MyBreathingspace.net</h2>
+        -->
+</div>
+
+    <div class="jumbotron hidden-xs" style="background-color:transparent;margin-top:-10vh">
+       
+        <div style="">
+            <div style="max-width:20%;float:left"><img src="~/Content/images/Course/sitting.png" style="width:10vw;height:10vw" /></div>
+            <div style="max-width:60%;background-color:transparent;float:left"><h3 style="color: black;text-align:center">Become gently aware of this, the present moment.</h3></div>
+            <div style="max-width:20%;float:right"><img src="~/Content/images/Course/kneeling.png" style="width:10vw;height:10vw;float:right" /></div>
+        </div>
+      </div>
+
+<div class="jumbotron hidden-sm hidden-md hidden-lg" style="background-color:transparent;margin-top:-10vh">
+   <h3 style="color: black;text-align:center">Become gently aware of this, the present moment.</h3>
+</div>
+      
+  <div class="jumbotron" style="background-color:white;margin-top:2vh;padding-top:2vh;padding-bottom: 2vh;">
+         
+            <h3 style="color: black">
+                Weekly sessions from Tuesday 9th January – Tuesday 13th March 2018. (No sessions on 13th February 0r 27th February 2018).
+            </h3>
+            <h3 style="color: black">
+                The time of the sessions will be 6.00pm – 7.00pm at Bowerchalke Village Hall.
+            </h3>
+            <h3 style="color: black">
+                For more details see Mybreathingspace.net. Contact Jean on 07833 723822 or email jean@mybreathingspace.net.
+            </h3>
+            <h3 style="color: black">
+                N.B. This course replaces Jack Kennedy’s Tuesday meditation sessions for the duration of the course, after which Jack’s sessions will resume.
+
+            </h3>
+            <!--
+        <h3 style="color: black">Session July 12th 6:00pm : Introduction to Mindfulness.</h3>
+        <h3 style="color: black">Session July 19th 6:00pm : Thinking Mindfully.</h3>
+            -->
+            <p class="lead" style="display:none">
+
+                <img src="~/Content/images/mybadvert1.png" />
+
+            </p>
+            @*<p><a href="@Url.Action("Index","Post", new { Area = "BlogAdmin"})" class="btn btn-primary btn-large">Go to the admin area (username: admin | password: demo) &raquo;</a></p>*@
+        </div>
+
+    @*
+        <div class="row" style="background-color:grey;opacity:0.5">
+
+            @foreach (var post in Model)
+            {
+                <div class="col-md-4">
+                    <h2>@post.Title</h2>
+                    <p>
+                        @Html.Raw(post.ShortDescription)
+                    </p>
+                    <p><a class="btn btn-default" href="@Url.PostLink(post)">Learn more &raquo;</a></p>
+                </div>
+            }
+        </div>
+    *@
